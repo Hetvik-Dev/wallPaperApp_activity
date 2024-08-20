@@ -1,4 +1,4 @@
-package com.example.wallpaperapp_activity
+package com.example.wallpaperapp_activity.presantation.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.wallpaperapp_activity.R
 
 class imageRecycleViewAdapter(private var dataSet: Array<String>) :
         RecyclerView.Adapter<imageRecycleViewAdapter.ViewHolder>() {

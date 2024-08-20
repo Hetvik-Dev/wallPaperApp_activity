@@ -1,14 +1,13 @@
-package com.example.wallpaperapp_activity
+package com.example.wallpaperapp_activity.presantation.view
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.wallpaperapp_activity.R
 import com.example.wallpaperapp_activity.databinding.ActivityMainBinding
+import com.example.wallpaperapp_activity.presantation.adapter.imageRecycleViewAdapter
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
