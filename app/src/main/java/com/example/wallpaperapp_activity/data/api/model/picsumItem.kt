@@ -2,7 +2,7 @@ package com.example.wallpaperapp_activity.data.api.model
 
 import com.google.gson.annotations.SerializedName
 
-data class apiPIcsumItem(
+data class picsumItem(
     val id: String,
     val author: String,
     val width: Int,

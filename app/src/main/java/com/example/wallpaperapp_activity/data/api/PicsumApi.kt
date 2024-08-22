@@ -1,6 +1,6 @@
 package com.example.wallpaperapp_activity.data.api
 
-import com.example.wallpaperapp_activity.data.api.model.apiPIcsumItem
+import com.example.wallpaperapp_activity.data.api.model.picsumItem
 import com.example.wallpaperapp_activity.data.api.utils.constants.BASE_URL
 import com.example.wallpaperapp_activity.data.api.utils.constants.END_POINT
 import retrofit2.http.GET
@@ -13,7 +13,7 @@ interface PicsumApi {
 
         @Query("page") page : Int = 1 , @Query("limit") limit : Int = 100
 
-    ): List<apiPIcsumItem>?
+    ): List<picsumItem>?
 
 }
 
